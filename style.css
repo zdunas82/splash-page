@@ -1,0 +1,49 @@
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f0f0f0;    
+}
+
+.box {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  border: 3px solid grey;
+  border-radius: 40px;
+  padding: 40px;
+  width: 800px;
+  height: 500px;
+  background-color: #ffffff;
+  box-shadow: 0 4px 8px rgba(4, 2, 2, 0.1);
+  margin: 20px;
+}
+
+h1 {
+  display: flex;
+  font-size: 36px;
+  margin: 10px 0;
+  font-weight: bold;
+  text-align: center;
+}
+
+h2 {
+  font-size: 30px;
+  font-weight: normal;
+  color: #555;
+  text-align: center;
+}
+
+.address {
+  position: absolute;
+  max-width: 25pc;
+  bottom: 100px;
+  left: 40px;
+  font-size: 35px;
+}
+
+
